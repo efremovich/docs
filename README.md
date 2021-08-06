@@ -21,6 +21,8 @@ POST - запрос
 
 POST - запрос
 
+**Content-type:application/x-www-form-urlencoded**
+
 Параметры (все параметры являются обязательными): 
 - username - имя пользователя личного кабинета 
 - password - пароль пользователя личного кабинета 
@@ -38,6 +40,8 @@ POST - запрос
 
 POST - запрос
 
+**Content-type:application/x-www-form-urlencoded**
+
 Параметры (все параметры являются обязательными): 
 - username - имя пользователя личного кабинета * password - пароль пользователя личного кабинета 
 - startDate -  дата начала транзакционного отчета в формате (YYYY-MM-DD)
@@ -53,6 +57,8 @@ POST - запрос
 ### URL: **/api/getbalance**
 
 POST - запрос
+
+**Content-type:application/x-www-form-urlencoded**
 
 Параметры (все параметры являются обязательными): 
 username - имя пользователя личного кабинета 
@@ -74,6 +80,8 @@ password - пароль пользователя личного кабинета
 ### URL: **/api/paymentdata**
 
 POST - запрос
+
+**Content-type:application/x-www-form-urlencoded**
 
 Параметры (все параметры являются обязательными): 
 - username - имя пользователя личного кабинета 
@@ -103,6 +111,8 @@ POST - запрос
 ___
 ## Изменение лимита топливной карты
 ### URL: **/api/editlimit**
+
+**Content-type:application/x-www-form-urlencoded**
 
 Параметры (все параметры являются обязательными): 
 - username - имя пользователя личного кабинета 
@@ -173,6 +183,8 @@ limit_period_code | string | Период действия лимита
 
 ## Изменение статуса топливной карты
 ### URL: **/api/ulockcard**
+
+**Content-type:application/x-www-form-urlencoded**
 
 Параметры (все параметры являются обязательными): 
 - username - имя пользователя личного кабинета 
