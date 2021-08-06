@@ -4,6 +4,7 @@
 ### URL: **/api/gettransaction/**
 
 POST - запрос
+
 **Content-type:application/x-www-form-urlencoded**
 
 Параметры (все параметры являются обязательными): 
